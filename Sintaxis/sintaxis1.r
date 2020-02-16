@@ -2,19 +2,33 @@
  
 #*   Comentario multilínea *#
 
+#identificadores
+..45hola = "hola"
+._3 = 3;
+normal_ = 32
+f = true;
+id.id.id = false;
+
 # Declarando variables  
 Var1 = 5; # Esta variable pasa a ser un vector                   
 # el tipo de la variable es integer    
 Var1 = c(5, "6"); # Esta variable pasa a ser un vector                                
-# el tipo de la variable es string    
-Var2 = Var1 * 4 – 2 # Esta variable pasa a ser un vector                                
+# el tipo de la variable es string
+var2 = 3 + 9 + 2 - 3 + 1 - (-1)
+var2 = 4 + 2 + h
+var3 = 4+hh*9
+varrr = 34+234+h*3*sdf
+varr = iddd*123-123
+Var2 = Var1 * 4 - 2; 
+# Esta variable pasa a ser un vector                                
 # el tipo de la variable es integer    
-Var2 = list(1,2,3) # Esta variable pasa a ser una lista                                
+Var2 = list(1,2,3); 
+# Esta variable pasa a ser una lista                                
 # el tipo de la variable es list    
-Var2 = MATRix(c(1,2,3), 3, 4, TRUE) # Esta variable pasa a ser una matriz                                                                  
+Var2 = MATRix(c(1,2,3), 3, 4, TRUE); 
+# Esta variable pasa a ser una matriz                                                                  
 # el tipo de la variable es matrix
 
-3 < 5 ? "hola" : "adios" 
 A = 3 < 5 ? "hola" : "adios"
 
 If(3 < 4) {   
@@ -65,19 +79,18 @@ While(3 < 4){
     continue; 
 }
 
-factorial = (n=3) => {
-    Return(n)
-} 
-
 factorial2 = (n=3) => {
     Return
 }
 
+factorial = (n=3) => {
+    Return(n)
+} 
 factorial = function(n){
     if(n <= 0){
-        return(result = 1);
+        return(1);
     }
-    return(result = n*factorial(n-1));
+    return(n*factorial(n-1));
 }
 
 # Llamando a una función  Factorial(5); 

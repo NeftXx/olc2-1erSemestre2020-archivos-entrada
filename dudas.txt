@@ -1,0 +1,11 @@
+Que tal, les dejo unas cuantas dudas:
+
+1. En el 4.11 creo que está mal el ejemplo ya que todas las funciones dicen mean()
+2. la gráfica de lineas y la gráfica de dispersión se llaman igual y decía que no podían haber funciones con el mismo nombre, las diferenciamos solo por el número de parámetros?
+3. 
+    * return (E)
+    * return (id = E) ... cual es la función de este return, en la sección 4.9.3 no se especifica?
+4. en sí, no hay valores primitivos verdad? lo mas primitivo sería un vector con tipo primitivo?
+    por ejemplo
+    var1 = 4
+    var2 = var1[1][1] #siempre tomaría valor 4?
