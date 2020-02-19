@@ -1,3 +1,9 @@
+.vector1 = c("hola","mundo","como","estan");
+vector2 = c(1,"hola"); #casteo
+
+print(.VECTOR1); #caseinsensitive
+print(vectoR2);
+
 variable1 = 5
 variable2 = 3+3-1;
 .var3 = "koka";
