@@ -1,3 +1,3 @@
-vector = 10
+Vector = 10
 
 print(vector)
