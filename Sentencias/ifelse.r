@@ -34,11 +34,13 @@ funcion1 = function(valor1,valor2){
 }
 
 funcion2 = (valor1,valor2) => {
+    x = "holaMUNDOOOOOOOO"
+    print(x)
     print("En funcion2");
     print(valor1);
     print(valor2);
 }
 
-funcion1("Hola"," Mundo!!");
+#funcion1("Hola"," Mundo!!");
 funcion2("Hola"," Mundo2!!");
 
