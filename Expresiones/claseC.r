@@ -7,13 +7,13 @@ print(c(true,34,32.0,"hola"));
 
 print("=========== TYPEOF ===========");
 print(typeof(c(true,false)));
-#debe imprimir la prioridad mas alta, en este caso BOOLEAN
+# debe imprimir la prioridad mas alta, en este caso BOOLEAN
 print(typeof(c(true,false,true,1)));
-#debe imprimir la prioridad mas alta, en este caso INTEGER
+# debe imprimir la prioridad mas alta, en este caso INTEGER
 print(typeof(c(true,23,23.0)));
-#debe imprimir la prioridad mas alta, en este caso DOUBLE
+# debe imprimir la prioridad mas alta, en este caso DOUBLE
 print(typeof(c(true,34,32.0,"hola")));
-#debe imprimir la prioridad mas alta, en este caso STRING
+# debe imprimir la prioridad mas alta, en este caso STRING
 
 #secuencias de escape
 print("\"Esto entre comillas\"");
