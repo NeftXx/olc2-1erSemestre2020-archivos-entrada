@@ -52,6 +52,98 @@ Este con salto de linea
 No se la verdad que hace un retorno de carro xD pero ahí viene" ]
 ```
 
+## Matrices.r
+
+**Entrada:**
+
+```r
+print("\n========================================\n");
+
+A = matrix(c(null, true, 3.0, 4), 3, 4);
+B = A;
+
+B[1] = "P";
+B[5] = "R";
+B[3, 3] = "RRRRO";
+
+C = A + B;
+
+print(A);
+print(B);
+print(C);
+
+print("\n========================================\n");
+
+
+vector.1 = c(1, 2, 3, 4, 5, 6, 7, 8, 9);
+matriz.1 = matrix(vector.1, 9, 9)
+
+print(matriz.1 * 10);
+
+print("\n========================================\n");
+
+vector.2 = c(true, false, true, false, true, false);
+matriz.2 = matrix(vector.2, 3, 2);
+
+print(matriz.2 & matriz.2);
+print(!(matriz.2 | matriz.2));
+
+print(!(false ? matriz.2 : matriz.2 & false));
+
+print("\n========================================\n");
+
+matriz... = matrix(c(1, -2, 2, 3), 2, 2);
+
+print(matriz... * 1.0 / -5);
+
+```
+
+**Salida:**
+
+```bash
+> [ "
+========================================
+" ]
+> | NULL   | "4"    | "3.0" | "True" | 
+  | "True" | NULL   | "4"   | "3.0"  | 
+  | "3.0"  | "True" | NULL  | "4"    | 
+> | "P"    | "4"    | "3.0"   | "True" | 
+  | "True" | "R"    | "4"     | "3.0"  | 
+  | "3.0"  | "True" | "RRRRO" | "4"    | 
+> | "NULLP"    | "44"       | "3.03.0"    | "TrueTrue" | 
+  | "TrueTrue" | "NULLR"    | "44"        | "3.03.0"   | 
+  | "3.03.0"   | "TrueTrue" | "NULLRRRRO" | "44"       | 
+> [ "
+========================================
+" ]
+> | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 10 | 
+  | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 20 | 
+  | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 30 | 
+  | 40 | 40 | 40 | 40 | 40 | 40 | 40 | 40 | 40 | 
+  | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 50 | 
+  | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 60 | 
+  | 70 | 70 | 70 | 70 | 70 | 70 | 70 | 70 | 70 | 
+  | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 80 | 
+  | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 90 | 
+> [ "
+========================================
+" ]
+> | true  | false | 
+  | false | true  | 
+  | true  | false | 
+> | false | true  | 
+  | true  | false | 
+  | false | true  | 
+> | true | true | 
+  | true | true | 
+  | true | true | 
+> [ "
+========================================
+" ]
+> | -0.2 | -0.4 | 
+  | 0.4 | -0.6 | 
+```
+
 ## superBasicas.r
 
 **Entrada:**
@@ -100,6 +192,7 @@ print(.varr);
 ```
 
 **Salida:**
+
 ```bash
 > [ "hola", "mundo", "como", "estan" ]
 > [ "1", "hola" ]
@@ -145,4 +238,5 @@ print(vector[2][1][1]) # ["true"]
 Salida:
 
 ```bash
+
 ```
