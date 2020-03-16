@@ -31,7 +31,7 @@ print(X[1][1][1]); # imprime 7
 > [ 7 ]
 ```
 
-> Nota: Esta salida es con la entrada anteriores, es decir con los errores, asi que no imprime el 10
+> Nota: Esta salida es con la entrada anterior, es decir con los errores, asi que no imprime el 10
 
 ## Recursivas.r
 
