@@ -193,13 +193,13 @@ main();
 ============ HANOI ============
 " ]
 > [ "Solucion al problema de torres de Hanoi para n = 3" ]
-> [ "mover disco de 1 a3" ]
-> [ "mover disco de 1 a 2" ]
-> [ "mover disco de 3 a2" ]
 > [ "mover disco de 1 a 3" ]
-> [ "mover disco de 2 a1" ]
+> [ "mover disco de 1 a 2" ]
+> [ "mover disco de 3 a 2" ]
+> [ "mover disco de 1 a 3" ]
+> [ "mover disco de 2 a 1" ]
 > [ "mover disco de 2 a 3" ]
-> [ "mover disco de 1 a3" ]
+> [ "mover disco de 1 a 3" ]
 > [ "
 ================= RECURSIVIDAD CRUZADA" ]
 > [ "
