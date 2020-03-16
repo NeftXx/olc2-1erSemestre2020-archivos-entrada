@@ -54,7 +54,7 @@ potencia = (base, exp) => {
 
 hanoi = function(discos, origen, auxiliar, destino) {
  if (discos == 1) {
-   print("mover disco de " + origen + " a" + destino);
+   print("mover disco de " + origen + " a " + destino);
  } else {
    hanoi(discos - 1, origen, destino, auxiliar);
    print("mover disco de " + origen + " a " + destino);
