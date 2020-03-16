@@ -92,17 +92,19 @@ main = () => {
     *#
   print("\n================= RECURSIVIDAD CRUZADA");
   print("\n===== Generar funciones Hoftadter\n");
-  # ent i;
-  # print("== Femenina: ");
-  # for (i = 0; i < 10; i++) {
-  #     print("%e ", hofstaderFemenina(i));
-  # }
-  # print("\n");
-  # print("== Masculina: ");
-  # for (i = 0; i < 10; i++) {
-  #     print("%e ", hofstaderMasculino(i));
-  # }
-  # print("\n");
+  i = 0;
+  print("\n== Femenina: \n");
+  while(i < 10) {
+    print(hofstaderFemenina(i));
+    i = i + 1;
+  }
+  print("\n== Masculina: \n");
+  i = 0;
+  while (i < 10) {
+    print(hofstaderMasculino(i));
+    i = i + 1;
+  }
+
   #**
     * Funciones Par e Impar.
     *#
