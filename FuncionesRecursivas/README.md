@@ -1,3 +1,10 @@
+# FuncionesRecursivas
+
+## expresiones.r
+
+**Entrada:**
+
+```r
 var1 = 1;
 punteo = 0;
 
@@ -18,7 +25,7 @@ Inicio();
 
     #Sección de declaracion de variables
     Declaracion();
-    
+
     #seccion de manejo de ámbitos 2
     amb1 = 5;
     Ambitos2();
@@ -26,11 +33,11 @@ Inicio();
     #Sección de expresiones aritméticas
     Aritmeticas();
 
-    
+
     #Seccion de expresiones lógicas
     Logicas();
 
-    
+
     #Seccion de expresiones relacionales
     Relacionales();
 
@@ -44,7 +51,7 @@ Inicio();
             ========= Metodo Declaracion =========
             Voy a ganar Compiladores 2 :D
             ======================================
-    
+
     *#
     print("========= Metodo Declaracion =========");
     n4 = 2;
@@ -115,15 +122,15 @@ Inicio();
     {
         punteo = punteo + 3;
     }
-    else 
+    else
     {
         print("Perdiste 3 puntos :c ");
     }
-    
+
     operacionesBasicas();
     operacionesAvanzadas();
     print("======================================");
-    
+
 }
 
  operacionesBasicas= () =>{
@@ -198,7 +205,7 @@ Inicio();
     aritmetica1 = n0/16 + ((((!(true|false))))?1:0); # aritmetica1 = 0
     condicion2 = aritmetica1 == n1; #false
     condicion3 = !true; #false
-        
+
     if (!(!(!(condicion1|condicion2) | condicion3 ))){
         print("Nots y Ors correectos");
         punteo = punteo + 3;
@@ -211,7 +218,7 @@ Inicio();
  Relacionales=function(){
     n0 = 34;
     n1 = 16;
-    
+
     relaciones1(n0);
     relaciones2(n1);
 }
@@ -285,7 +292,7 @@ Inicio();
 }
 
  figura1=function(n){
-    
+
     StringFigura = "";
     i = -3*n/2
     while (i < n+1) {
@@ -334,7 +341,7 @@ Inicio();
                 StringFigura = StringFigura + c;
                 j = j+1;
             }
-            
+
             print(StringFigura);
             StringFigura ="";
             i = i+1
@@ -352,7 +359,7 @@ Inicio();
                 StringFigura = StringFigura + c;
                 j = j+1
             }
-            
+
             print(StringFigura);
             StringFigura = "";
             i = i+1;
@@ -370,12 +377,12 @@ Inicio();
                 StringFigura = StringFigura +c;
                 j = j+1;
             }
-            
+
             print(StringFigura);
             StringFigura = "";
             i = i+1
         }
-        
+
         StringFigura ="";
         i = 0;
         while(i < (altura/4)){
@@ -389,7 +396,7 @@ Inicio();
                 StringFigura = StringFigura + c;
                 j = j+1;
             }
-            
+
             print(StringFigura);
             StringFigura = "";
             i = i+1;
@@ -407,12 +414,12 @@ Inicio();
                 StringFigura = StringFigura + c;
                 j = j+1
             }
-            
+
             print(StringFigura);
             StringFigura = "";
             i = i+1;
         }
-        
+
             print("if la figura es un Arbol +10 <3");
 
        }
@@ -452,3 +459,126 @@ Inicio();
         i = i + 1;
     }
 }
+```
+
+**Salida:**
+
+```bash
+> [ "-----------------CALIFICACION-----------------" ]
+> [ "========= Metodo Declaracion =========" ]
+> [ "Voy a ganar Compiladores 2 :D" ]
+> [ "======================================" ]
+> [ "========= Error Ambitos ==============" ]
+> [ "======================================" ]
+> [ "================ Nice ================" ]
+> [ "Sin error: Desde ambito2" ]
+> [ "======================================" ]
+> [ "==============Aritmeticas=============" ]
+> [ "Hola COMPI" ]
+> [ "El valor de  n1 = 52.1" ]
+> [ "El valor de n3 = 70.0" ]
+> [ "Operaciones Aritmeticas 1: valor esperado:
+a)62
+b)0
+c)-19
+d)256
+resultados>" ]
+> [ "a) 62" ]
+> [ "b) 0" ]
+> [ "c) -19" ]
+> [ "d) 256.0" ]
+> [ "Operaciones aritmeticas 1 bien :D" ]
+> [ "Operaciones Aritmeticas 2: valor esperado> -20  41, resultado>" ]
+> [ "-20" ]
+> [ "41.0" ]
+> [ "Operaciones aritmeticas 2 bien :D" ]
+> [ "======================================" ]
+> [ "==============Logicas1=============" ]
+> [ "Bien primera condicion :)" ]
+> [ "Bien segunda condicion:)" ]
+> [ "======================================" ]
+> [ "==============Logicas2=============" ]
+> [ "Not y Ands Correctos" ]
+> [ "Nots y Ors correectos" ]
+> [ "======================================" ]
+> [ "==============relacionales1=============" ]
+> [ "salida Correcta Relacionales 1!" ]
+> [ "======================================" ]
+> [ "vas bien, animo :D" ]
+> [ "============Relacionales2=============" ]
+> [ "salida CORRECTA en relacionales2!!" ]
+> [ "======================================" ]
+> [ " 1" ]
+> [ " 1 2" ]
+> [ " 1 2 3" ]
+> [ " 1 2 3 4" ]
+> [ " 1 2 3 4 5" ]
+> [ " 1 2 3 4 5 6" ]
+> [ " 1 2 3 4 5 6 7" ]
+> [ " 1 2 3 4 5 6 7 8" ]
+> [ ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . " ]
+> [ ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . " ]
+> [ ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . " ]
+> [ ". . . . . . . . . * * * . . . . . . . * * * . . . . . . . . . " ]
+> [ ". . . . . . . * * * * * * * . . . * * * * * * * . . . . . . . " ]
+> [ ". . . . . * * * * * * * * * * * * * * * * * * * * * . . . . . " ]
+> [ ". . . . . * * * * * * * * * * * * * * * * * * * * * . . . . . " ]
+> [ ". . . . * * * * * * * * * * * * * * * * * * * * * * * . . . . " ]
+> [ ". . . . * * * * * * * * * * * * * * * * * * * * * * * . . . . " ]
+> [ ". . . * * * * * * * * * * * * * * * * * * * * * * * * * . . . " ]
+> [ ". . . * * * * * * * * * * * * * * * * * * * * * * * * * . . . " ]
+> [ ". . . * * * * * * * * * * * * * * * * * * * * * * * * * . . . " ]
+> [ ". . . . * * * * * * * * * * * * * * * * * * * * * * * . . . . " ]
+> [ ". . . . * * * * * * * * * * * * * * * * * * * * * * * . . . . " ]
+> [ ". . . . . * * * * * * * * * * * * * * * * * * * * * . . . . . " ]
+> [ ". . . . . * * * * * * * * * * * * * * * * * * * * * . . . . . " ]
+> [ ". . . . . . . * * * * * * * * * * * * * * * * * . . . . . . . " ]
+> [ ". . . . . . . . * * * * * * * * * * * * * * * . . . . . . . . " ]
+> [ ". . . . . . . . . * * * * * * * * * * * * * . . . . . . . . . " ]
+> [ ". . . . . . . . . . * * * * * * * * * * * . . . . . . . . . . " ]
+> [ ". . . . . . . . . . . * * * * * * * * * . . . . . . . . . . . " ]
+> [ ". . . . . . . . . . . . * * * * * * * . . . . . . . . . . . . " ]
+> [ ". . . . . . . . . . . . . * * * * * . . . . . . . . . . . . . " ]
+> [ ". . . . . . . . . . . . . . * * * . . . . . . . . . . . . . . " ]
+> [ ". . . . . . . . . . . . . . . * . . . . . . . . . . . . . . . " ]
+> [ ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . " ]
+> [ "if la figura es un corazon +10 <3" ]
+> [ "                    * " ]
+> [ "                  * * * " ]
+> [ "                * * * * * " ]
+> [ "              * * * * * * * " ]
+> [ "            * * * * * * * * * " ]
+> [ "          * * * * * * * * * * * " ]
+> [ "        * * * * * * * * * * * * * " ]
+> [ "      * * * * * * * * * * * * * * * " ]
+> [ "                * * * * * " ]
+> [ "                * * * * * " ]
+> [ "if la figura es un Arbol +10 <3" ]
+> [ "Esto se va a print 2 veces :3" ]
+> [ "Esto se va a print 2 veces :3" ]
+> [ "punteo Final: 54" ]
+```
+
+# Recursivas.r
+
+**Entrada:**
+
+```r
+ackermann = function(m,n) {
+    if (m == 0) {
+        return (n + 1);
+    } else if (m > 0 & n == 0) {
+        return (ackermann(m - 1, 1));
+    } else {
+        return (ackermann(m - 1, ackermann(m, n - 1)));
+    }
+}
+
+print("ackermann: "+ackermann(3,6));
+```
+
+**Salida:**
+
+```bash
+> [ "ackermann: 509" ]
+```
