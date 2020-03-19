@@ -63,3 +63,15 @@ print("Lista: "+lista1);
 print("Lista2: "+lista2);
 print("Vector: "+vector1);
 print("Vector2: "+vector2);
+
+array1 = array(list(1,2,3),c(3,2,3))
+print(array1)
+#*
+            1         2
+    1   [1,2,3]   [1,2,3]
+    2   [1,2,3]   [1,2,3]   
+
+        1   2
+    1   1   3
+    2   2   1
+*#
