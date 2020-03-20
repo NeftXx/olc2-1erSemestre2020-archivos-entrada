@@ -1,7 +1,7 @@
 
 string = "12345"
-print("Este tiene 5 caracteres verdad? :"+StringLength(string));
-print("Ahora le quito el 4 y 5 tendría que tener solo 3: "+remove(string,));
+print("Este tiene 5 caracteres verdad? : "+StringLength(string));
+print("Ahora le quito el 4 y 5 tendría que tener solo 3: "+remove(string, "45"));
 
 print(toUpperCase("Todo esto a UpperCase"));
 
@@ -41,6 +41,6 @@ funcion2 = (valor1,valor2) => {
     print(valor2);
 }
 
-#funcion1("Hola"," Mundo!!");
+funcion1("Hola"," Mundo!!");
 funcion2("Hola"," Mundo2!!");
 
