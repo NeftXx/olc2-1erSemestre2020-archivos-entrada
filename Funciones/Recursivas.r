@@ -1,15 +1,15 @@
 factorial = function(n) {
   if (n == 0) {
-    return 1;
+    return (1);
   }
-  return n * factorial(n - 1);
+  return (n * factorial(n - 1));
 }
 
 potencia = (base, exp) => {
   if (exp == 0) {
-    return 1;
+    return (1);
   }
-  return base * potencia(base, exp - 1);
+  return (base * potencia(base, exp - 1));
 }
 
 hanoi = function(discos, origen, auxiliar, destino) {
@@ -24,42 +24,42 @@ hanoi = function(discos, origen, auxiliar, destino) {
 
 hofstaderFemenina = function(n) {
   if (n < 0) {
-    return 0;
+    return (0);
   } else {
     if (n == 0) {
-      return 1;
+      return (1);
     }
-    return n - hofstaderFemenina(n - 1);
+    return (n - hofstaderFemenina(n - 1));
   }
 }
 
 hofstaderMasculino = function(n) {
   if (n < 0) {
-    return 0;
+    return (0);
   } else {
     if (n == 0) {
-      return 0;
+      return (0);
     }
-    return n - hofstaderMasculino(n - 1);
+    return (n - hofstaderMasculino(n - 1));
   }
 }
 
 par = function(nump) {
   if (nump == 0) {
-    return 1;
+    return (1);
   }
-  return impar(nump - 1);
+  return (impar(nump - 1));
 }
 
 impar = function(numi) {
   if (numi == 0) {
-    return 0;
+    return (0);
   }
-  return par(numi - 1);
+  return (par(numi - 1));
 }
 
 ackermann = function(m, n) {
-  return m == 0 ? n + 1 : m > 0 & n == 0 ? ackermann(m - 1, 1) : ackermann(m - 1, ackermann(m, n - 1));
+  return (m == 0 ? n + 1 : m > 0 & n == 0 ? ackermann(m - 1, 1) : ackermann(m - 1, ackermann(m, n - 1)));
 }
 
 main = () => {
@@ -127,7 +127,7 @@ main = () => {
   }
   print("\n========== RECURSIVIDAD ANIDADA ==========\n");
   m = 3;
-  n = 7;
+  n = 4;
   print("Funcion de Ackermann (" + m + ", " + n + ") = " + ackermann(m, n));
 }
 
